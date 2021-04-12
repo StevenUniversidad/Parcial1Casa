@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+
+       <TextView
+           android:id="@+id/textView"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:text="Formulario Productos"
+           android:textAlignment="center"
+           android:textSize="24sp" />
+
+       <EditText
+           android:id="@+id/txtnombre"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:ems="10"
+           android:hint="Digite el Nombre"
+           android:inputType="textPersonName" />
+
+       <EditText
+           android:id="@+id/txtcodigo"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:ems="10"
+           android:hint="Digite el Codigo"
+           android:inputType="number" />
+
+       <EditText
+           android:id="@+id/txtvalor"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:ems="10"
+           android:hint="Digite el Valor"
+           android:inputType="number" />
+
+       <EditText
+           android:id="@+id/txtiva"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:ems="10"
+           android:hint="Tiene Iva?"
+           android:inputType="textPersonName" />
+
+       <EditText
+           android:id="@+id/txtcategoria"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:ems="10"
+           android:hint="Digite la Categoria"
+           android:inputType="textPersonName" />
+
+
+       <Button
+           android:id="@+id/btnguardar"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:layout_gravity="center"
+           android:layout_weight="1"
+           android:text="Guardar" />
+
+       <Button
+           android:id="@+id/btncostosos"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:layout_gravity="center"
+           android:layout_weight="1"
+           android:text="10 mas Costosos" />
+
+       <Button
+           android:id="@+id/btnbaratos"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:layout_gravity="center"
+           android:text="10 Mas Baratos" />
+
+       <Button
+           android:id="@+id/btnpromedio"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:layout_gravity="center"
+           android:text="Promedio Productos" />
+
+       <Button
+           android:id="@+id/btnenviar"
+           android:layout_width="243dp"
+           android:layout_height="match_parent"
+           android:layout_gravity="center"
+           android:layout_weight="1"
+           android:text="Mostrar Productos Iva" />
+
+       <TextView
+           android:id="@+id/txtresultado"
+           android:layout_width="match_parent"
+           android:layout_height="274dp"
+           android:layout_weight="1"
+           android:text="Resultado"
+           android:textAlignment="center"
+           android:textSize="24sp" />
+
+
+
+
+   </LinearLayout>
+
+
+</LinearLayout>
